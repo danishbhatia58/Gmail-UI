@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A615C39E541E5A122F27908 /* Pods_Gmail_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD11591232BCD32C23D8BC4 /* Pods_Gmail_UI.framework */; };
+		1C6D26A025A881E90092FBD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D269F25A881E90092FBD2 /* AppDelegate.swift */; };
+		1C6D26A225A881E90092FBD2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D26A125A881E90092FBD2 /* HomeViewController.swift */; };
+		1C6D26A525A881E90092FBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6D26A325A881E90092FBD2 /* Main.storyboard */; };
+		1C6D26A725A881EB0092FBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6D26A625A881EB0092FBD2 /* Assets.xcassets */; };
+		1C6D26AA25A881EB0092FBD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6D26A825A881EB0092FBD2 /* LaunchScreen.storyboard */; };
+		1C6D26B225A8840C0092FBD2 /* StoryboardConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D26B125A8840C0092FBD2 /* StoryboardConstants.swift */; };
+		1C6D26B425A8857C0092FBD2 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D26B325A8857C0092FBD2 /* StringConstants.swift */; };
+		1C6D26B825A886F50092FBD2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D26B725A886F50092FBD2 /* Extensions.swift */; };
+		1C6D26BA25AC47300092FBD2 /* HomePageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D26B925AC47300092FBD2 /* HomePageOneViewController.swift */; };
+		1C6D26BE25AC50120092FBD2 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D26BC25AC50120092FBD2 /* HomeTableViewCell.swift */; };
+		1C6D26BF25AC50120092FBD2 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6D26BD25AC50120092FBD2 /* HomeTableViewCell.xib */; };
+		1C6D26C125AC7E0E0092FBD2 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D26C025AC7E0E0092FBD2 /* SideMenuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BD11591232BCD32C23D8BC4 /* Pods_Gmail_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gmail_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6D269C25A881E90092FBD2 /* Gmail UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gmail UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6D269F25A881E90092FBD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C6D26A125A881E90092FBD2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1C6D26A425A881E90092FBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C6D26A625A881EB0092FBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C6D26A925A881EB0092FBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C6D26AB25A881EB0092FBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6D26B125A8840C0092FBD2 /* StoryboardConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardConstants.swift; sourceTree = "<group>"; };
+		1C6D26B325A8857C0092FBD2 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		1C6D26B725A886F50092FBD2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1C6D26B925AC47300092FBD2 /* HomePageOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageOneViewController.swift; sourceTree = "<group>"; };
+		1C6D26BC25AC50120092FBD2 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		1C6D26BD25AC50120092FBD2 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		1C6D26C025AC7E0E0092FBD2 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		3006242B0ED88A402418BBD9 /* Pods-Gmail UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gmail UI.debug.xcconfig"; path = "Target Support Files/Pods-Gmail UI/Pods-Gmail UI.debug.xcconfig"; sourceTree = "<group>"; };
+		A8172477032B97D53F76FCC3 /* Pods-Gmail UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gmail UI.release.xcconfig"; path = "Target Support Files/Pods-Gmail UI/Pods-Gmail UI.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C6D269925A881E90092FBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A615C39E541E5A122F27908 /* Pods_Gmail_UI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C6D269325A881E90092FBD2 = {
+			isa = PBXGroup;
+			children = (
+				1C6D269E25A881E90092FBD2 /* Gmail UI */,
+				1C6D269D25A881E90092FBD2 /* Products */,
+				6118F1DB4A25152B193CC773 /* Pods */,
+				783247C5CD50D6BE8F408582 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C6D269D25A881E90092FBD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C6D269C25A881E90092FBD2 /* Gmail UI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C6D269E25A881E90092FBD2 /* Gmail UI */ = {
+			isa = PBXGroup;
+			children = (
+				1C6D26BB25AC4FD10092FBD2 /* Cells */,
+				1C6D269F25A881E90092FBD2 /* AppDelegate.swift */,
+				1C6D26A625A881EB0092FBD2 /* Assets.xcassets */,
+				1C6D26B525A8858B0092FBD2 /* CommonAndConstants */,
+				1C6D26AB25A881EB0092FBD2 /* Info.plist */,
+				1C6D26A825A881EB0092FBD2 /* LaunchScreen.storyboard */,
+				1C6D26A325A881E90092FBD2 /* Main.storyboard */,
+				1C6D26B625A885F20092FBD2 /* ViewControllers */,
+				1C6D26B725A886F50092FBD2 /* Extensions.swift */,
+			);
+			path = "Gmail UI";
+			sourceTree = "<group>";
+		};
+		1C6D26B525A8858B0092FBD2 /* CommonAndConstants */ = {
+			isa = PBXGroup;
+			children = (
+				1C6D26B125A8840C0092FBD2 /* StoryboardConstants.swift */,
+				1C6D26B325A8857C0092FBD2 /* StringConstants.swift */,
+			);
+			path = CommonAndConstants;
+			sourceTree = "<group>";
+		};
+		1C6D26B625A885F20092FBD2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1C6D26A125A881E90092FBD2 /* HomeViewController.swift */,
+				1C6D26B925AC47300092FBD2 /* HomePageOneViewController.swift */,
+				1C6D26C025AC7E0E0092FBD2 /* SideMenuViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1C6D26BB25AC4FD10092FBD2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1C6D26BC25AC50120092FBD2 /* HomeTableViewCell.swift */,
+				1C6D26BD25AC50120092FBD2 /* HomeTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6118F1DB4A25152B193CC773 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3006242B0ED88A402418BBD9 /* Pods-Gmail UI.debug.xcconfig */,
+				A8172477032B97D53F76FCC3 /* Pods-Gmail UI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		783247C5CD50D6BE8F408582 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BD11591232BCD32C23D8BC4 /* Pods_Gmail_UI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C6D269B25A881E90092FBD2 /* Gmail UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6D26AE25A881EB0092FBD2 /* Build configuration list for PBXNativeTarget "Gmail UI" */;
+			buildPhases = (
+				D506926BEA2FE20D1E743930 /* [CP] Check Pods Manifest.lock */,
+				1C6D269825A881E90092FBD2 /* Sources */,
+				1C6D269925A881E90092FBD2 /* Frameworks */,
+				1C6D269A25A881E90092FBD2 /* Resources */,
+				8122BA0AD8AEBB4D32D5B80C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gmail UI";
+			productName = "Gmail UI";
+			productReference = 1C6D269C25A881E90092FBD2 /* Gmail UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C6D269425A881E90092FBD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Danish;
+				TargetAttributes = {
+					1C6D269B25A881E90092FBD2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 1C6D269725A881E90092FBD2 /* Build configuration list for PBXProject "Gmail UI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C6D269325A881E90092FBD2;
+			productRefGroup = 1C6D269D25A881E90092FBD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C6D269B25A881E90092FBD2 /* Gmail UI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C6D269A25A881E90092FBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6D26AA25A881EB0092FBD2 /* LaunchScreen.storyboard in Resources */,
+				1C6D26A725A881EB0092FBD2 /* Assets.xcassets in Resources */,
+				1C6D26BF25AC50120092FBD2 /* HomeTableViewCell.xib in Resources */,
+				1C6D26A525A881E90092FBD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8122BA0AD8AEBB4D32D5B80C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gmail UI/Pods-Gmail UI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BmoViewPager/BmoViewPager.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BmoViewPager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gmail UI/Pods-Gmail UI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D506926BEA2FE20D1E743930 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gmail UI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C6D269825A881E90092FBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6D26C125AC7E0E0092FBD2 /* SideMenuViewController.swift in Sources */,
+				1C6D26B825A886F50092FBD2 /* Extensions.swift in Sources */,
+				1C6D26BA25AC47300092FBD2 /* HomePageOneViewController.swift in Sources */,
+				1C6D26BE25AC50120092FBD2 /* HomeTableViewCell.swift in Sources */,
+				1C6D26B425A8857C0092FBD2 /* StringConstants.swift in Sources */,
+				1C6D26B225A8840C0092FBD2 /* StoryboardConstants.swift in Sources */,
+				1C6D26A225A881E90092FBD2 /* HomeViewController.swift in Sources */,
+				1C6D26A025A881E90092FBD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C6D26A325A881E90092FBD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C6D26A425A881E90092FBD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C6D26A825A881EB0092FBD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C6D26A925A881EB0092FBD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C6D26AC25A881EB0092FBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C6D26AD25A881EB0092FBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C6D26AF25A881EB0092FBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3006242B0ED88A402418BBD9 /* Pods-Gmail UI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gmail UI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danish.Gmail-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C6D26B025A881EB0092FBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8172477032B97D53F76FCC3 /* Pods-Gmail UI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gmail UI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danish.Gmail-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C6D269725A881E90092FBD2 /* Build configuration list for PBXProject "Gmail UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6D26AC25A881EB0092FBD2 /* Debug */,
+				1C6D26AD25A881EB0092FBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C6D26AE25A881EB0092FBD2 /* Build configuration list for PBXNativeTarget "Gmail UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6D26AF25A881EB0092FBD2 /* Debug */,
+				1C6D26B025A881EB0092FBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C6D269425A881E90092FBD2 /* Project object */;
+}
